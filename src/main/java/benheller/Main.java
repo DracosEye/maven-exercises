@@ -1,6 +1,5 @@
 package benheller;
 
-
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.Scanner;
@@ -25,5 +24,7 @@ public class Main {
         // Manipulate the input
         System.out.println("Flipped case: " + StringUtils.swapCase(inputString));
         System.out.println("Reversed: " + StringUtils.reverse(inputString));
+
+        scanner.close();
     }
 }
